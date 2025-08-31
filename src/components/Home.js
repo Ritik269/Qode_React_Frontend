@@ -16,12 +16,26 @@ function Home() {
       date: "Apr 03, 2024",
       title: "The Focused Way of Investing: Our Four-Quadrant Strategy and FY24 Review",
       desc: "FY24 brought us a 42% gain in our Capitalmind Focused portfolio..."
+    },
+    {
+      date: "Apr 09, 2024",
+      title: "Money Magic: Regular SIPs can make you wealthy ??",
+      desc: "By just investing 10k per month you will become crorepati in 20 yrs..."
+    },
+     {
+      date: "Apr 29, 2024",
+      title: "India Post announces suspension of all US-bound mail bookings amid regulatory uncertainty",
+      desc: "The Department of Posts, in a statement issued on Sunday, said that it has suspended the booking of all categories"
     }
+
+
   ];
 
   return (
     <div>
       <h1>Home</h1>
+      <h3>Latest Posts</h3>
+
       <div className="posts">
         {posts.map((p, i) => (
           <div key={i} className="post">

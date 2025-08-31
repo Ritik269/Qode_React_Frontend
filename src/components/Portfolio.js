@@ -32,9 +32,16 @@ function Portfolio() {
           <tr>
             <th>Name</th>
             <th>YTD</th>
+            <th>1D</th>
+            <th>1W</th>
+            <th>1M</th>
+            <th>3M</th>
+            <th>6M</th>
             <th>1Y</th>
             <th>3Y</th>
             <th>SI</th>
+            <th>DD</th>
+            <th>MAX DD</th>
           </tr>
         </thead>
         <tbody>
@@ -44,6 +51,14 @@ function Portfolio() {
             <td>43.5%</td>
             <td>23.9%</td>
             <td>22.5%</td>
+            <td>22.5%</td>
+            <td>22.5%</td>
+            <td>22.5%</td>
+            <td>22.5%</td>
+            <td>22.5%</td>
+            <td>22.5%</td>
+            <td>22.5%</td>
+            
           </tr>
           <tr>
             <td>NIFTY50</td>
@@ -51,6 +66,13 @@ function Portfolio() {
             <td>26.2%</td>
             <td>16.0%</td>
             <td>14.5%</td>
+            <td>22.5%</td>
+            <td>22.5%</td>
+            <td>22.5%</td>
+            <td>22.5%</td>
+            <td>22.5%</td>
+            <td>22.5%</td>
+            <td>22.5%</td>
           </tr>
         </tbody>
       </table>
