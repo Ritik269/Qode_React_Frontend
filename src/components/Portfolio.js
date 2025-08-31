@@ -3,6 +3,7 @@ import {
   LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, AreaChart, Area
 } from "recharts";
 import data from "../data/navData.json";
+//import data from "../data/chartData.json"
 
 function Portfolio() {
   const [chartData, setChartData] = useState([]);
@@ -39,7 +40,7 @@ function Portfolio() {
             <th>6M</th>
             <th>1Y</th>
             <th>3Y</th>
-            <th>SI</th>
+            <th className="with-divider">SI</th>
             <th>DD</th>
             <th>MAX DD</th>
           </tr>
@@ -55,7 +56,7 @@ function Portfolio() {
             <td>22.5%</td>
             <td>22.5%</td>
             <td>22.5%</td>
-            <td>22.5%</td>
+            <td className="with-divider">22.5%</td>
             <td>22.5%</td>
             <td>22.5%</td>
             
@@ -70,7 +71,7 @@ function Portfolio() {
             <td>22.5%</td>
             <td>22.5%</td>
             <td>22.5%</td>
-            <td>22.5%</td>
+            <td className="with-divider">22.5%</td>
             <td>22.5%</td>
             <td>22.5%</td>
           </tr>
@@ -84,6 +85,8 @@ function Portfolio() {
           <YAxis />
           <Tooltip />
           <Line type="monotone" dataKey="nav" stroke="green" dot={false} />
+          {/* Benchmark (blue line) */}
+          <Line type="monotone" dataKey="benchmark" stroke="blue" dot={false} /> 
         </LineChart>
       </ResponsiveContainer>
 

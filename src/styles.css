@@ -51,12 +51,21 @@
 .returns {
   border-collapse: collapse;
   margin-bottom: 20px;
+  text-align: center;
+  table-layout: fixed; 
+  
 }
 .returns th,
 .returns td {
   border: 1px solid #ddd;
   padding: 8px 12px;
+  width: 100%;
+  word-wrap: break-word;
+  width: calc(100% / 12);     
 }
 .returns th {
   background: #f0f0f0;
+}
+.returns .with-divider {
+  border-right: 4px solid black; /* dark vertical separator */
 }
