@@ -1,0 +1,62 @@
+.app {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 220px;
+  background: #f6f6f6;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  font-size: 16px;
+}
+.sidebar .premium {
+  color: green;
+}
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+.sidebar li {
+  margin: 10px 0;
+  cursor: pointer;
+}
+.sidebar li:hover {
+  text-decoration: underline;
+}
+.footer {
+  margin-top: 50px;
+  font-size: 12px;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.posts .post {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+.date {
+  color: gray;
+  font-size: 0.9em;
+}
+
+.returns {
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+.returns th,
+.returns td {
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+}
+.returns th {
+  background: #f0f0f0;
+}
